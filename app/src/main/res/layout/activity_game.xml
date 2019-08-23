@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="8dp"
+    android:background="@drawable/bg_game"
+    tools:context="com.mad.f1k375.susunkata.game">
+
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="8dp">
+        <ImageView
+            android:layout_margin="5dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/cover"/>
+        <ImageView
+            android:layout_margin="5dp"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/label"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="180dp"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/item_1"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:onClick="ayo_tebak"/>
+
+            <Button
+                android:id="@+id/item_3"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:onClick="ayo_tebak"/>
+
+            <Button
+                android:id="@+id/item_5"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:onClick="ayo_tebak"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/item_2"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:onClick="ayo_tebak"/>
+
+            <Button
+                android:id="@+id/item_4"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:onClick="ayo_tebak"/>
+
+            <Button
+                android:id="@+id/item_6"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:onClick="ayo_tebak"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

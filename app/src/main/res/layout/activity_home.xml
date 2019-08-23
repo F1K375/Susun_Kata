@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home"
+    android:paddingTop="110dp"
+    android:paddingLeft="15dp"
+    tools:context="com.mad.f1k375.susunkata.Home">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="12dp">
+
+            <Button
+                android:id="@+id/play"
+                android:layout_width="155dp"
+                android:layout_height="55dp"
+                android:background="@drawable/btn_play"
+                android:onClick="game" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="12dp">
+
+            <Button
+                android:id="@+id/help"
+                android:layout_width="155dp"
+                android:layout_height="55dp"
+                android:background="@drawable/btn_about"
+                android:onClick="game" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="12dp">
+
+            <Button
+                android:id="@+id/exit"
+                android:layout_width="155dp"
+                android:layout_height="55dp"
+                android:background="@drawable/btn_exit"
+                android:onClick="game" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="12dp">
+
+            <Button
+                android:id="@+id/credit"
+                android:layout_width="155dp"
+                android:layout_height="55dp"
+                android:background="@drawable/btn_credit"
+                android:onClick="game" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
